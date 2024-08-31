@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.header {
+    font-size: 5em;
+    font-style: italic;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: auto;
+    background-color:aliceblue;
+    border-bottom: 1px solid;
+}
+span::first-letter{
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
+.gallery:hover{
+    border: 2.5px solid black;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    width:451px;
+    margin: 10px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.img-description{
+    text-align: center;
+    font-size: 1.7em;
+    padding: 5px;
+}
+

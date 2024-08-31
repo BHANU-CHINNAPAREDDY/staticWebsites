@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container{
+    background-color: #1b1b1b;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    /* height: 100vh; */
+}
+.card-container{
+    background-color: #e6f6ff;
+    height: 210px;
+    border-radius: 10px;
+}
+.card-text-container,.recommended-books-text-container{
+    padding: 10px;
+}
+.card-book-name{
+    color: #183b56;
+}
+.card-book-description{
+    color: #06070d;
+}
+.button{
+    /* height: 60px; */
+    width: 100px;
+    font-family: "Roboto";
+}
+.bottom-section{
+    padding-top: 10px;
+}
+.book-container{
+    height: 150px;
+    padding-top: 10px;
+}
+.recommended-books-image{
+    height: 100%;
+}
+.author-name{
+    color: #9aa5b1;
+}
+
+.details-page-book{
+    height: 400px;
+}
+.book-details{
+    text-align: center;
+}
+.back-button{
+    margin-right: 5px;
+}
+.book-story{
+    color: #9aa5b1;
+}

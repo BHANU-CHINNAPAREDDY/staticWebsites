@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* NavBar */
+.navbar-background{
+    background-color: #0C0521;
+}
+#nav-item1,#nav-item2,#nav-item3,#nav-item4,#nav-item5{
+    color: white;
+}
+
+/* Banner section */
+.banner-section{
+    background-image: url("https://assets.ccbp.in/frontend/responsive-website/landing-section-bg.png");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.banner-section-heading{
+    font-size: 45px;
+    text-align: center;
+}
+.banner-spcl-color{
+    color: #FFDDA9;
+}
+.banner-section-description{
+    font-size: 22px;
+}
+.custom-button{
+    height: 60px;
+    width: 200px;
+    border-width: 0px;
+    border-radius: 25px;
+    background-color: #FFDDA9;
+    font-weight: bold;
+}
+
+/* Logos Section */
+.logos-section{
+    background-color: #f9fbfe;
+    font-family: "Roboto";
+}
+.logos-section-heading{
+    color: #323f4b;
+    font-size: 20px;
+}
+
+/* Design and deliver Section */
+.dd-section{
+    background-color: white;
+    font-family: "Roboto";
+}
+.dd-section-heading{
+    color: #323f4b;
+    font-size: 24px;
+    font-weight: bold;
+}
+.dd-section-description{
+    color: #7b8794;
+    font-size: 22px;
+}
+
+/* Features-section */
+.features-section{
+    background-color: white;
+    font-family: "Roboto";
+}
+.features-section-heading{
+    color: #323f4b;
+    font-size: 28px;
+    font-weight: bold;
+}
+.features-section-description{
+    color: #9aa5b1;
+}
+.feature-heading{
+    columns: #7b8794;
+    font-size: 18px;
+}
+.feature-description{
+    color: #9aa5b1;
+    font-size: 16px;
+}

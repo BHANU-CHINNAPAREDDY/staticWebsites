@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* nav Section */
+#nav-item1, #nav-item2,#nav-item3,#nav-item4,#nav-item5{
+    color: #000000;
+}
+.website-logo{
+    width: 130px;
+}
+/* Set the carousel and inner containers to 100vh */
+#carouselExampleIndicators,
+#carouselExampleIndicators .carousel-inner,
+#carouselExampleIndicators .carousel-item {
+    height: 100vh;
+}
+
+/* Ensure images cover the full height */
+#carouselExampleIndicators .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services-section{
+    background-color: white;
+}
+.custom-section-heading{
+    color: #183b56;
+    font-size: 30px;
+    font-weight: bold;
+}
+.services-section-description{
+    color: #616c7c;
+    font-size: 20px;
+}
+.service-name{
+    color: #1f2933;
+    font-size: 24px;
+}
+.services-description{
+    color: #7b8794;
+    font-size: 18px;
+}
+
+/* Products Section */
+.products-section{
+    background-color: white;
+}
+.product-container{
+    border-radius: 10px;
+}
+.product-container{
+    border-radius: 10px;
+    height: 40vh;
+    color: white;
+}
+.pc-1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+.pc-2{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+.product-name{
+    font-size: 30px;
+}
+.product-description{
+    font-size: 18px;
+}
+.custom-button{
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    border-width: 0px;
+    color: #ff9f00;
+    background-color: white;
+}
+.custom-link{
+    color: #ff9f00;
+    font-size: 18px;
+}
+
+/* Special Offer Section */
+.spcl-offer-section{
+    background-image: linear-gradient(to right,#f49541,#dd5d97);
+    font-weight: 900;
+}
+.offer-name{
+    color: #ad2167;
+    font-family: "Bree Serif";
+    font-size: 38px;
+}
+.offer-description{
+    font-family: "Roboto";
+}
+
+/* Trending Blogs section */
+.blog-section-heading{
+    font-size: 30px;
+}
+.blog-container{
+    border-radius: 10px;
+}
+.blog-domain{
+    color: #959ead;
+    font-size: 20px;
+}
+.custom-section-small-heading{
+    color: #183b56;
+    font-size: 22px;
+    font-weight: bold;
+}
+.blog-description{
+    color: #959ead;
+    font-size: 19px;
+}
+.spcl-blog-link{
+    color: #ff9f00;
+}
+
+/* Deals and Offers Section */
+
+.dof-section{
+    background-color: #f5f7fa;
+}
+.deal-container{
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Roboto";
+}
+.deal-image{
+    border-radius: 25px;
+    padding: 10px;
+}
+.deal-name{
+    color: #1f2933;
+    font-size: 24px;
+    
+}
+
+/* Contack Us Section */
+.cu-section{
+    background-color: #f5f7fa;
+    font-family: "Roboto";
+}
+.cu-section-heading{
+    font-size: 40px;
+}
+.custom-outline-button{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff9f00;
+    color: #ff9f00;
+    height: 50px;
+    width: 130px;
+}
+
+/* Footer Section */
+.footer-section{
+    background-color: #0d2436;
+}
+.footer-section-icon-container{
+    background-color: #152c3e;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    padding-left: 17px;
+    padding-right: 16px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+.footer-section-icon{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5a7184;
+}
+.footer-section-address{
+    color:white;
+}
+.footer-section-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5a7184;
+}
+.footer-section-options{
+    font-size: 16px;
+    color: #5a7184;
+}
+.copyright-section{
+    color: white;
+}
+.copyright-section-icon{
+    font-size: 20px;
+    color: #5a7184;
+}

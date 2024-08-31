@@ -1,0 +1,12 @@
+.heading{
+    text-align: center;
+}
+.box-size{
+    padding: 20px;
+}
+.box-text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}

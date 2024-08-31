@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodcastPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="sectionHomePage">
+        <div class="top-section">
+            <h2 class="top-section-heading">Podcasts</h2>
+        </div>
+        <div class="bottom-section">
+            <div class="row-container d-flex flex-row justify-content-center">
+                <div class="card-container" onclick="display('sectionPurijagannadh')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="puri-jagannadh-img" class="card-image">
+                    <h5 class="podcaster-name">Puri jagannadh</h5>
+                    <p class="podcast-episodes">24 Episodes</p>
+                </div>
+                <div class="card-container" onclick="display('sectionTedxTalks')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="tedx-img" class="card-image">
+                    <h5 class="podcaster-name">Tedx talks</h5>
+                    <p class="podcast-episodes">12 Episodes</p>
+                </div>
+            </div>
+            <div class="row-container d-flex flex-row justify-content-center">
+                <div class="card-container" onclick="display('sectionSadhguru')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="puri-jagannadh-img" class="card-image">
+                    <h5 class="podcaster-name">Sadhguru</h5>
+                    <p class="podcast-episodes">49 Episodes</p>
+                </div>
+                <div class="card-container" onclick="display('sectionOnPurpose')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="tedx-img" class="card-image">
+                    <h5 class="podcaster-name">On purpose</h5>
+                    <p class="podcast-episodes">49 Episodes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionPurijagannadh">
+        <div class="top-section-details-page  d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="" class="details-section-image">
+            <div class="text-container">
+                <h6 class="podcast-heading">Podcast</h6>
+                <h5>Puri Jagannadh Podcast</h5>
+                <h6 class="podcast-heading">The puri jagannadh Podcast</h6>
+            </div>
+        </div>
+        <div class="bottom-section-details-page d-flex flex-column justify-content-start">
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h5 class="podcast-name">Molecular Gastronomy</h5>
+                    <h6 class="podcast-description">Anything happens there it will not cook, ...</h6>
+                    <h6 class="podcast-length">15 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Mysterious book</h6>
+                    <h6 class="podcast-description">The Voynich manuscript is the 15th century book...</h6>
+                    <h6 class="podcast-length">12 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Predator Drone</h6>
+                    <h6 class="podcast-description">The most power full drone. It is 10 feet height...</h6>
+                    <h6 class="podcast-length">10 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Paella</h6>
+                    <h6 class="podcast-description">The national dish of spain. It was first star...</h6>
+                    <h6 class="podcast-length">6 min</h6>
+                </div>
+            </div>
+            <div class="button-section d-flex flex-row justify-content-end">
+                <button class="button" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionTedxTalks">
+        <div class="top-section-details-page  d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="" class="details-section-image">
+            <div class="text-container">
+                <h6 class="podcast-heading">Podcast</h6>
+                <h5>The Tedx podcast</h5>
+                <h6 class="podcast-heading">The Tedx podcast</h6>
+            </div>
+        </div>
+        <div class="bottom-section-details-page d-flex flex-column justify-content-start">
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h5 class="podcast-name">The science of friction</h5>
+                    <h6 class="podcast-description">Tribology: It's a funny sounding wowrd you might...</h6>
+                    <h6 class="podcast-length">12 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Unlead you</h6>
+                    <h6 class="podcast-description">What can we learn from the world's most enduringly...</h6>
+                    <h6 class="podcast-length">8 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">3 psychological tricks</h6>
+                    <h6 class="podcast-description">We all want to save more money -but overall,..</h6>
+                    <h6 class="podcast-length">10 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">The case for stubborn</h6>
+                    <h6 class="podcast-description">This decade is a moment of choice unlike any we ...</h6>
+                    <h6 class="podcast-length">12 min</h6>
+                </div>
+            </div>
+            <div class="button-section d-flex flex-row justify-content-end">
+                <button class="button" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionSadhguru">
+        <div class="top-section-details-page  d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="" class="details-section-image">
+            <div class="text-container">
+                <h6 class="podcast-heading">Podcast</h6>
+                <h5>The Sadhguru podcast</h5>
+                <h6 class="podcast-heading">The Sadhguru podcast</h6>
+            </div>
+        </div>
+        <div class="bottom-section-details-page d-flex flex-column justify-content-start">
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h5 class="podcast-name">Head or heart</h5>
+                    <h6 class="podcast-description">Sadhguru shares his wisdom on how to make...</h6>
+                    <h6 class="podcast-length">16 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">How to equip yourself</h6>
+                    <h6 class="podcast-description">Society and human interactions are going...</h6>
+                    <h6 class="podcast-length">13 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">How not to get irritated</h6>
+                    <h6 class="podcast-description">How do you see an unpleasant spouse the...</h6>
+                    <h6 class="podcast-length">15 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Isha Kriya</h6>
+                    <h6 class="podcast-description">Rooted in the timeless wisdom if the yogic...</h6>
+                    <h6 class="podcast-length">16 min</h6>
+                </div>
+            </div>
+            <div class="button-section d-flex flex-row justify-content-end">
+                <button class="button" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionOnPurpose">
+        <div class="top-section-details-page  d-flex flex-row justify-content-start">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="" class="details-section-image">
+            <div class="text-container">
+                <h6 class="podcast-heading">Podcast</h6>
+                <h5>On Purpose with Jay</h5>
+                <h6 class="podcast-heading">The jay Shetty podcast</h6>
+            </div>
+        </div>
+        <div class="bottom-section-details-page d-flex flex-column justify-content-start">
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h5 class="podcast-name">patrick Bet david</h5>
+                    <h6 class="podcast-description">Are you an entrepreneur or have dreams or mental...</h6>
+                    <h6 class="podcast-length">10 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">5 Techniques to cope</h6>
+                    <h6 class="podcast-description">Does anixety looms around every corner or your...</h6>
+                    <h6 class="podcast-length">4 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">Radhanath Swami ON</h6>
+                    <h6 class="podcast-description">World-renowned spritual leader and philanthropist..</h6>
+                    <h6 class="podcast-length">12 min</h6>
+                </div>
+            </div>
+            <div class="podcasts d-flex flex-row justify-content-start">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" alt="" class="details-section-image">
+                <div class="details-section-text-container">
+                    <h6 class="podcast-name">3 ways to let go</h6>
+                    <h6 class="podcast-description">Do the opinions of others veer you from the core...</h6>
+                    <h6 class="podcast-length">13 min</h6>
+                </div>
+            </div>
+            <div class="button-section d-flex flex-row justify-content-end">
+                <button class="button" onclick="display('sectionHomePage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
